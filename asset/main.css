@@ -1,0 +1,190 @@
+:root {
+    --flex-basic-right: 35%;
+    --flex-basis-left-head: 35%;
+}
+
+html {
+    font-family: system-ui;
+}
+
+body {
+    padding: 0 300px;
+}
+
+.content {
+    display: flex;
+}
+.job-aim{
+    
+}
+
+/* Nội dung phía bên trái Avatar */
+
+.content_left {
+    flex-basis: 45%;
+    /* Chia phía bên trai 35%*/
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Nội dung đầu tiên chứa avatar và tên */
+
+.content_left-head {
+    background-color: #1f696a85;
+    padding: 20px 20px 0px;
+    flex-basis: var(--flex-basis-left-head);
+    height: 100vh;
+    
+}
+
+
+/* avatar */
+
+.left_head-avatar {
+    width: 80%;
+    background-position: center center;
+    background-image: url(image/nguyenvanhiep.jpg);
+    border-radius: 50%;
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    margin: 0px auto;
+}
+
+.head-title {
+    padding: 20px 20px;
+}
+
+.head_title-dream {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.title-dream  {
+    background-color: burlywood;
+    width: 80%;
+    height: 5vh;
+    justify-items: flex-start;
+    border-radius: 50%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+
+}
+
+.left.title {
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+.title {
+    color: white;
+    font-family: system-ui;
+    text-align: center;
+}
+.content_left-body {
+    /* flex-basis: calc(100%-var(--flex-basis-left-head)); */
+    height: 100%;
+    background-color: rgb(84, 108, 102);
+}
+.content_left-item {
+    padding: 20px 20px 20px;
+    color: white;
+    font-size: 1rem;
+}
+
+.infor {}
+
+.content_infor-item {
+    display: inline-flex;
+    align-items: center;
+}
+
+.content_infor-icon {
+    width: 40px;
+    padding-left: 20px;
+}
+
+.content_infor-item.date {}
+
+.date {}
+
+.fa-solid {
+    /* margin: 30% 35%; */
+}
+
+.content_infor-text {
+    /* width: 50vh; */
+}
+
+.fa-solid.fa-user {
+    /* margin: 25%; */
+}
+
+.content_left-item {
+    border-top: inset;
+}
+
+
+/* Nội dung bên phải */
+
+.name_card
+.content_right {
+    width: calc(100% - var(--flex-basic-right));
+    /* Chia phía bên phải = 100% - biến chứa % bên trái*/
+}
+
+.content_right-item {
+    padding: 20px 20px 0px;
+}
+
+.content_study {}
+
+.content_head {
+    display: inline-flex;
+    align-items: center;
+}
+
+.content_right-icon {
+    display: flex;
+    font-size: 1.5rem;
+    width: 70px;
+    height: 50px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.right.title {
+    text-align: start;
+    color: black;
+    margin-left: 1%;
+    width: 100%;
+}
+
+.content_body {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 1px 15px;
+    line-height: 0px;
+}
+
+.content_body-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_text {
+    line-height: normal;
+}
+
+.body_head-text {
+    color: blue;
+}
